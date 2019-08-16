@@ -1,29 +1,10 @@
 package com.company;
 
-public class Box<T, E> extends Number {
+public class Box<T extends Number, E extends Number>  {
 
     private T number_1;
     private E number_2;
 
-    @Override
-    public int intValue() {
-        return 0;
-    }
-
-    @Override
-    public long longValue() {
-        return 0;
-    }
-
-    @Override
-    public float floatValue() {
-        return 0;
-    }
-
-    @Override
-    public double doubleValue() {
-        return 0;
-    }
 
     public T getNumber_1() {
         return number_1;
